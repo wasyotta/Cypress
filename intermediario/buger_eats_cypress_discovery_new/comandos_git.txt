@@ -1,0 +1,47 @@
+1) Para iniciar um repositório "Git" em um "Projeto ja existente" usamos o comando Git init
+
+OBS: A) após iniciar um repositório, as letras das pastas ficam totalmente verde com um (U) para identeficar como Untracked, para sinalizar que estas pastas ainda não foram adicionadas
+ao repositório
+
+B) Para Ignorar arquivos não necessários no repositório é necessário criar um arquivo chamado ".gitignore"
+e nela adicionamos as pastas que não queremos adicionar como a pasta node modules por exemplo
+
+C) após Rodar o comando "git add ." todos os arquivos do projeto ficam com a letra (A)Indicando que foram adicionados ao repositório
+D) Toda vez que houver uma alteração nos arquivos do projeto que já tenham sido adicionados a repositório os arquivos ficam com uma letra(M) de modified
+indicanto que o arquivo foi midificado sendo necessário adicionar as novas mudanças ao repositório novamente seguinte os mesmos passos na sequência {1}
+E) O "Git" é um controlador de versão de código ou versionador de código
+F) O "GitHub" é uma plataforma onde armazenamos o código/ repositório git na nuvem
+
+2) O comando "git status", exibe todos os arquivos que sofretam modificações até o momento e/ou o que será adicionado ao repositório
+3) O comando "git add ." adicion ao repositório todos os arquivos e/ou pastas que foram alterados ou adicionados ao Projeto
+4) O comando"git add + nome da pasta ou arquivo" adiciona o repositório o item isolado
+5) O comando "git commit -m + (comentario/descrição)" cria uma versão do código no repositório com uma descrição informativa
+6) O comando "git config --global user.email + meu email(entre aspas duplas)" cria um autor para o projeto criado
+7) Após criar o repositório na Nuvem é necessário link o projeto local ao repositório na nuvem através dos comandos
+    "git branch -M main" main seria a mesma coisa que a branch master no git chama-se master no github chama-se main
+    e ao rodar este comando na máquina o git cria um repositório novo chamado main e mantém tanto a master quanto a main no repositório local(máquina)
+    "git remote add origin git@github.com:wasyotta/Buger-Eats-Cypress-Discovery-new.git"
+    este comando adiciona uma origem nesse caminho do github fazendo um link entre o repositório local e github
+    "git push -u origin main"
+    este comando faz a publicação de fato na branch main do repositório git
+8) caso os comandos acima logren algum erro, é necessário criar uma chave ssh para autorizar o computador a fazer alterações no repositório git
+    através do comand "ssh-keygen" o sistema vai gerar a chave publica no caminho C:\Users\Win10/.ssh/id_rsa.pub    
+
+    em seguida é necessário autorizar a chave publica através do comando
+    cat C:\Users\Win10/.ssh/id_rsa.pub
+
+
+Sequência {1}
+
+1-  git status
+2-  git add
+4-  git status
+3 - git commit -m + (comentario/descrição)
+
+Sequência {2}
+
+1-  git status
+2-  git add
+3-  git status
+4 - git commit -m + (comentario/descrição)
+5 - git push -u origin main

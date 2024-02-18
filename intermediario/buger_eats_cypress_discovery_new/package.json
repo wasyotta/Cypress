@@ -1,0 +1,17 @@
+{
+  "name": "buger-eats",
+  "version": "1.0.0",
+  "description": "Projeto de aceitação do app Buger Eats",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "author": "Wilson Alves Silva",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^9.7.0",
+    "cypress-file-upload": "^5.0.8",
+    "faker": "^5.5.3",
+    "gerador-validador-cpf": "^5.0.2"
+  }
+}
