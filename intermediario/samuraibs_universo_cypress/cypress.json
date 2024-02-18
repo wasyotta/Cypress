@@ -1,0 +1,13 @@
+{
+  "baseUrl": "http://localhost:3000/",
+  "viewportWidth": 1400,
+  "viewportHeight": 900,
+  "dbConfig":{
+    "host":"ruby.db.elephantsql.com",
+    "user":"uroyaodl",
+    "password":"o7tE5KLf64sGu7i6GG3I0BCU3tYYTnON",
+    "database":"uroyaodl",
+    "port":5432
+
+  }
+}

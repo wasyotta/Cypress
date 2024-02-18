@@ -1,0 +1,14 @@
+{
+  "name": "samuraibs-tests",
+  "version": "1.0.0",
+  "description": "Projeto de Testes de aceitação de ponta a ponta em Cypress",
+  "main": "index.js",
+  "author": "Wilson Alves Silva",
+  "license": "MIT",
+  "devDependencies": {
+    "@faker-js/faker": "^6.1.2",
+    "cypress": "^9.5.3",
+    "faker": "^5.5.3",
+    "pg": "^8.7.3"
+  }
+}
