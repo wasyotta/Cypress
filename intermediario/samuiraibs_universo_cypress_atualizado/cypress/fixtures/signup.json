@@ -1,0 +1,23 @@
+{
+  "success": {
+    "name": "Wilson Alves Silva",
+    "email": "will.tester@samuraibs.com",
+    "password": "123456"
+  },
+  "email_dup": {
+    "name": "Wilson Alves Silva",
+    "email": "will.tester@samuraibs.com",
+    "password": "123456",
+    "is_provider": true
+  },
+  "email_inv": {
+    "name": "Wilson Alves Silva",
+    "email": "teste.com.br",
+    "password": "123456"
+  },
+  "short_password": {
+    "name": "Wilson Sevla Avlis",
+    "email": "Lliw@samuraibs.com",
+    "password": null
+  }
+}

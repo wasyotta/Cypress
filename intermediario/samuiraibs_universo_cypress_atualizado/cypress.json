@@ -1,0 +1,15 @@
+{
+    "baseUrl": "https://samuraibs-web-will.herokuapp.com",
+    "apiServer": "https://samuraibs-api-will.herokuapp.com",
+    "viewportWidth": 1440,
+    "viewportHeight" : 900,
+    "defaultCommandTimeout": 30000,
+    "dbConfig": {
+        "host": "ruby.db.elephantsql.com",
+        "user": "uroyaodl",
+        "password": "o7tE5KLf64sGu7i6GG3I0BCU3tYYTnON",
+        "database": "uroyaodl",
+        "port": 5432
+    },
+    "projectId": "1hha3m"
+}

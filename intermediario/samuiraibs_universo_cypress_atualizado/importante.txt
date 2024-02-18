@@ -1,0 +1,5 @@
+1) O comando "npx cypress run"  é um comando de execução de testes em modo headless(não assistida)  
+2) O comando "npx cypress run --spec ./cypress/integration/login.spec.js", é usado para executar uma suite de testes em especifico
+3) O comando "npx cypress run --spec ./cypress/integration/login.spec.js --browser chrome/firefox/edge" é usado para executar uma suite de testes em um navegador em específico
+4) O comando ("defaultCommandTimeout": 30000,), é adicionado ao arquivo cypress.json para setar um timeout implicíto
+5) O gitHub Actions é uma ferramenta de CICD, usadao para criar um workflow de testes contínuos
